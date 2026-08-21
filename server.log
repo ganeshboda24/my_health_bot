@@ -1,0 +1,10 @@
+◇ injected env (6) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+DNS: using public resolvers (8.8.8.8, 1.1.1.1) for Atlas SRV resolution
+Connecting to MongoDB Atlas...
+Cluster: cluster0.ycgjurc.mongodb.net
+Database: arogya_innovators
+Routes mounted: /api/auth, /api/members, /api/chat, /api/symptoms
+Server running on http://localhost:8000
+MongoDB Atlas connected successfully
+Database: arogya_innovators
+PHC seed skipped: 94 records already exist.
