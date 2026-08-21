@@ -7,7 +7,7 @@ const API_BASE = configuredApiUrl
     ? configuredApiUrl
     : `https://${configuredApiUrl}`
   : import.meta.env.PROD
-    ? "https://my-health-bot-dnsu.onrender.com"
+    ? "https://ash-8pmq.onrender.com"
     : "";
 
 function getToken() {
