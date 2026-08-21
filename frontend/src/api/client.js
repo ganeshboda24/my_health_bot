@@ -6,7 +6,9 @@ const API_BASE = configuredApiUrl
   ? /^https?:\/\//i.test(configuredApiUrl)
     ? configuredApiUrl
     : `https://${configuredApiUrl}`
-  : "";
+  : import.meta.env.PROD
+    ? "https://my-health-bot-dnsu.onrender.com"
+    : "";
 
 function getToken() {
   return localStorage.getItem("arogya_token") || "";
